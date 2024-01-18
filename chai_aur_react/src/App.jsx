@@ -6,7 +6,9 @@ import "./index.css";
 function App() {
   return (
     <>
-      <h1 bg-red>tarun singh</h1>
+      <div className="w-full h-screen flex justify-center items-center">
+        <button className=" w-24 h-12 bg-black text-white">click me</button>
+      </div>
     </>
   );
 }
